@@ -2,8 +2,9 @@
 require "yaml"
 
 def load_library(file)
-  emo=YAML.load_file(file)# code goes here
-emo
+  emoticon=YAML.load_file(file)# code goes here
+  emoticon[get_meaning]=
+  emoticon[get_emoticon]=
 end
 
 def get_japanese_emoticon
